@@ -1,0 +1,29 @@
+{
+  "name": "CMS 270 (Java 21 + Swing)",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "none",
+      "installMaven": "true",
+      "installGradle": "false"
+    },
+    // Virtual desktop for Swing windows, viewed in the browser (noVNC on 6080, password "vscode")
+    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+  },
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {
+      "label": "GUI Desktop",
+      "onAutoForward": "notify"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  },
+  // Pre-download dependencies so the first test run is fast
+  "postCreateCommand": "mvn -B -q test-compile"
+}

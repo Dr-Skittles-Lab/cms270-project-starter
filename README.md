@@ -7,9 +7,9 @@ This repository runs entirely in your browser with **GitHub Codespaces**. You do
 Do this once. Skip it if you've already made your copy.
 
 1. Sign in to GitHub. (Free account. If you haven't yet, apply for the [GitHub Student Developer Pack](https://education.github.com/pack); it raises your monthly Codespaces hours.)
-2. Open the template link from Canvas and click the green **Use this template** button → **Create a new repository**.
-3. Name it `cms270-project`, choose **Private**, and click **Create repository**.
-4. Make sure you're on **your** copy now (the page shows `your-username/cms270-project`) before going on.
+2. Click the green **Use this template** button → **Create a new repository**.
+3. Name it (e.g. `cms270-project-do-stuff`), choose **Private**, and click **Create repository**.
+4. Make sure you're on **your** copy now (the page shows `your-username/cms270-project-do-stuff`) before going on.
 
 ## 2. Open your Codespace
 

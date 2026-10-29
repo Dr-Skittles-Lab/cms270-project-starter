@@ -1,6 +1,8 @@
 {
   "name": "CMS 270 (Java 25 + Swing)",
-  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
       "version": "25",

@@ -1,2 +1,23 @@
+# Maven build output
 target/
+
+# Stray compiled classes (e.g. from running javac by hand)
+*.class
+
+# JVM crash logs
+hs_err_pid*.log
+
+# Eclipse / VS Code Java metadata
+.classpath
+.project
+.settings/
+.factorypath
+bin/
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS files
 .DS_Store
+Thumbs.db

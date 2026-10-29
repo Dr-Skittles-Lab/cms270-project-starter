@@ -1,9 +1,9 @@
 {
-  "name": "CMS 270 (Java 21 + Swing)",
-  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+  "name": "CMS 270 (Java 25 + Swing)",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "none",
+      "version": "25",
       "installMaven": "true",
       "installGradle": "false"
     },
